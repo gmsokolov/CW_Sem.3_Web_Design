@@ -1,0 +1,44 @@
+@media only screen and (max-width:1230px){
+	*{
+		font-size: 102%;
+	}
+	.btn{
+		font-size: 80%;
+	}
+	.pr tr td, .pr tr th, .ft tr td, .ft tr th{
+		font-size: 70%;
+	}
+}
+@media only screen and (max-width:1000px){
+	*{
+		font-size: 100%;
+	}
+	.btn{
+		font-size: 77%;
+	}
+	.pr tr td, .pr tr th, .ft tr td, .ft tr th{
+		font-size: 65%;
+	}
+}
+@media only screen and (max-width:855px){
+	*{
+		font-size: 95%;
+	}
+	.btn{
+		font-size: 75%;
+	}
+	.pr tr td, .pr tr th, .ft tr td, .ft tr th{
+		font-size: 64%;
+	}
+}
+@media only screen and (max-width:650px){
+	*{
+		font-size: 95%;
+	}
+	.btn{
+		font-size: 67%;
+	}
+	.pr tr td, .pr tr th, .ft tr td, .ft tr th{
+		font-size: 63%;
+	}
+}

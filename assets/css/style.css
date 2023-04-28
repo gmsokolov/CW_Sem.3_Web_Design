@@ -1,0 +1,91 @@
+*{
+	font-size: 104%;
+	font-family: monospace;
+	color: black;
+	text-align: justify;
+}
+body{
+	background-color: lightgrey;
+	background-image: url(../imgs/bg.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+}
+h1{
+	text-align: center;
+	text-shadow: 2px -2px white;
+	font-weight: light;
+	font-style: italic;
+	font-family: serif;
+	padding: 0.75%;
+	font-size: 165%;
+	color: darkslateblue;
+}
+h2, h3{
+	text-align: center;
+	font-size: 125%;
+	padding: 0.7%;
+	color: darkblue;
+}
+
+span{
+	font-weight: bold;
+	font-style: italic;
+	font-family: serif;
+	font-size: 80%;
+}
+#y{
+	font-style: normal;
+	font-weight: normal;
+	color: darkblue;
+	font-size: 79%;
+	font-family: sans-serif;
+}
+.transpbg{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+}
+.logo{
+	width: 50%;
+	height: auto;
+	float: right;
+	margin-right: 20%;
+}
+.map{
+	width: 85%;
+	height: auto;
+	float: right;
+	margin-right: 10%;
+	margin-top: 10%;
+}
+.btn{
+	background-image: linear-gradient(to right,gray,darkgrey);
+	text-align: center;
+	border-radius: 8px;
+	font-size: 105%;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-left: 0.2%;
+	margin-right: 0.2%;
+	max-width: 24.6%;
+	box-shadow: 0px -3.1px 0px darkslateblue;
+}
+a .btn{
+	color: white;
+}
+a:hover .btn{
+	background-image: linear-gradient(to right,darkgrey,darkgrey);
+	box-shadow: 0px 0px 0px darkblue;
+	transform: translateY(-3.1px);
+	transition: 0.12s;
+}
+.row{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.c100 p,.c50 p,.c75 p,.c25 p{
+	padding: 2%;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/grid.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/form.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/responsive.css">
+	<title>ФН: 21621397</title>
+</head>
+<body>
+	<div class="row">
+		<a href="../index.html">
+			<div class="c25 btn">
+				обща информация за студента
+			</div>
+		</a>
+		<a href="prog.html">
+			<div class="c25 btn">
+				програма на студента
+			</div>
+		</a>
+		<a href="#">
+			<div class="c25 btn">
+				съобщение към студента
+			</div>
+		</a>
+		<a href="calc.html">
+			<div class="c25 btn">
+				калкулатор за среден успех
+			</div>
+		</a>
+	</div>
+
+	<div class="row">
+		<div class="c100">
+			<h1>Тук може да оставите съобщение:</h1>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="c25">
+			<p></p>
+		</div>
+		<div class="c50">
+			<form method="post">
+				<table class="ft">
+					<tr>
+						<th><label>Имена на изпращача:</label></th>
+						<td><input type="text" maxlength="32" name="имена"></td>
+					</tr>
+					<tr>
+						<th><label>Имейл на изпращача:</label></th>
+						<td><input type="email" maxlength="32" name="mail"></td>
+					</tr>
+					<tr>
+						<th rowspan="3"><label>Пол на изпращача:</label></th>
+						<td class="pad"><input class="l" type="radio" name="пол"> Мъж </td>
+					</tr>
+					<tr>
+						<td class="pad"><input class="l" type="radio" name="пол"> Жена</td>
+					</tr>
+					<tr>
+						<td class="pad"><input class="l" type="radio" name="пол"> Друг</td>
+					</tr>
+					<tr>
+						<th><label>Съобщението е относно:</label></th>
+						<td><select name="Относно">
+							<option value="дейности в ТУВ" selected>Дейности в университета</option>
+							<option value="извънучени д.">Извънучебни дейности</option>
+							<option value="лични">Лични проблеми</option>
+						</select></td>
+					</tr>
+					<tr>
+						<th rowspan="5"><label>Подателят е:</label></th>
+						<td class="pad"><input class="l" type="checkbox" name="подател"> Преподавател</td>
+					</tr>
+					<tr>
+						<td class="pad"><input class="l" type="checkbox" name="подател"> Студент в ТУВ</td>
+					</tr>
+					<tr>
+						<td class="pad"><input class="l" type="checkbox" name="подател"> От студентски съвет</td>
+					</tr>
+					<tr>
+						<td class="pad"><input class="l" type="checkbox" name="подател"> Представител на клуб</td>
+					</tr>
+					<tr>
+						<td class="pad"><input class="l" type="checkbox" name="подател"> Друго</td>
+					</tr>
+
+					<tr>
+						<th colspan="2" style="text-align:center;">Съобщение:</th>
+					</tr>
+					<tr>
+						<td colspan="2" style="border-style: none; background-color: rgba(0, 0, 0, 0.0);">
+							<textarea name="съобщение" rows="10"> Здравейте, Георги, </textarea>
+						</td>
+					</tr>
+
+					<tr>
+						<th rowspan="2">Моля, въведете числата вдясно<br>
+						за да покажете, че не сте робот:</th>
+						<td style="text-align:center;">
+							<img style="margin-top: 1.1%;" class="ver" src="../assets/imgs/verify.jpg">
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align:center;">
+							<input class="ver" type="password" name="pw" minlength="11" maxlength="11">
+						</td>
+					</tr>
+					<tr>
+						<td style="
+							text-align: center;
+							border-style: none; 
+							background-color: rgba(0, 0, 0, 0.0);"
+						colspan="2"><input class="sub" type="submit" name="submit" value="Изпрати!"></td>
+					</tr>
+				
+				</table>
+			</form>
+			
+		</div>
+		<div class="c25">
+			<p></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="c100">
+			<h3>© Georgi Sokolov <span id="y">2021</span> All Rights Reserved.</h3>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../assets/js/year.js"></script>
+</body>
+</html>

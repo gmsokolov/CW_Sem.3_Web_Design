@@ -1,0 +1,21 @@
+.row{
+	width: 100%;
+	display: inline-table;
+	
+}
+.c100,.c50,.c75,.c25{
+	float: left;
+}
+
+.c100{
+	width: 100%;
+}
+.c50{
+	width: 50%;
+}
+.c75{
+	width: 75%;
+}
+.c25{
+	width: 25%;
+}

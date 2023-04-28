@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/grid.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/form.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/calc.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/responsive.css">
+	<title>ФН: 21621397</title>
+</head>
+<body>
+	<div class="row">
+		<a href="../index.html">
+			<div class="c25 btn">
+				обща информация за студента
+			</div>
+		</a>
+		<a href="prog.html">
+			<div class="c25 btn">
+				програма на студента
+			</div>
+		</a>
+		<a href="form.html">
+			<div class="c25 btn">
+				съобщение към студента
+			</div>
+		</a>
+		<a href="#">
+			<div class="c25 btn">
+				калкулатор за среден успех
+			</div>
+		</a>
+	</div>
+
+	<div class="row">
+		<div class="c100">
+			<h1>Среден успех на студента:</h1>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="c25">
+			<p></p>
+		</div>
+		<div class="c50">
+			
+				<table class="ft">
+					<tr>
+						<th colspan="2" style="text-align:center;">Взети досега изпити:</th>
+					</tr>
+					<tr>
+						<td id="predmeti">
+							<p class="predmet">Базово Програмиране</p>
+							<hr>
+							<p class="predmet">Основи на Компютърните Системи</p>
+							<hr>
+							<p class="predmet">Английски Език</p>
+							<hr>
+							<p class="predmet">Електротехника</p>
+							<hr>
+							<p class="predmet">Математика 1.</p>
+							<hr>
+							<p class="predmet">Синтез и Анализ на Алгоритми</p>
+							<hr>
+							<p class="predmet">Математика 2.</p>
+							<hr>
+							<p class="predmet">Логика и Автомати</p>
+							<hr>
+							<p class="predmet">Електроника</p>
+						</td>
+						<td id="ocenki" style="text-align:center;">
+							<p class="ocenka">6.00</p>
+							<hr>
+							<p class="ocenka">6.00</p>
+							<hr>
+							<p class="ocenka">6.00</p>
+							<hr>
+							<p class="ocenka">6.00</p>
+							<hr>
+							<p class="ocenka">6.00</p>
+							<hr>
+							<p class="ocenka">6.00</p>
+							<hr>
+							<p class="ocenka">6.00</p>
+							<hr>
+							<p class="ocenka">6.00</p>
+							<hr>
+							<p class="ocenka">6.00</p>
+						</td>
+					</tr>
+					<tr>
+						<th style="text-align:center; background-color: rgba(200, 200, 200, 0.8);">Средна оценка:</th>
+						<td style="text-align:center; background-color: rgba(200, 200, 200, 0.8);" id = "srOc">0</td>
+					</tr>
+					<tr>
+						<th colspan="2" style="text-align:center;">Добави предмет:</th>
+					</tr>
+					<tr>
+						<td>
+							<input id="subject" type="text" name="predmet" value="Предмет">
+						</td>
+						<td>
+							<input id="note" type="text" name="predmet" value="6.00">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="
+							text-align: center;
+							border-style: none; 
+							background-color: rgba(0, 0, 0, 0.0);">
+							<button class="sub" type="submit" name="calculate" onclick="addAndCalc()">Изчисли!</button>
+						</td>
+					</tr>
+				
+				</table>
+			
+			
+		</div>
+		<div class="c25">
+			<p></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="c100">
+			<h3>© Georgi Sokolov <span id="y">2021</span> All Rights Reserved.</h3>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../assets/js/calc.js"></script>
+</body>
+</html>
